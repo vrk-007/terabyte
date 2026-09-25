@@ -1,0 +1,16 @@
+# data (large, and often provided separately / not meant to be redistributed)
+dataset/
+
+# trained model artifacts (binary, can get large)
+code/business_entity_resolution/models/*.pkl
+
+# python noise
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.venv/
+
+# output can go either way — many teams DO commit output/ so graders can see
+# results without rerunning; up to you, but if you exclude it, uncomment:
+# output/
